@@ -1,3 +1,8 @@
 ItemName_EN = {
-    ItemName_Base.CARD_ITEM_TYPE = "GAME Deck",
+    ItemName_Base.CovertNamesWords = "Covert Name Tiles",
+    ItemName_Base.CovertNamesAgents = "Agent Tiles",
+    ItemName_Base.CovertNamesKeyCards = "Key Cards",
+
+    ItemName_Base.CovertNames_Box = "Covert Names Box",
+    ItemName_Base.CovertNames_Box_sealed = "Covert Names Box (Sealed)",
 }

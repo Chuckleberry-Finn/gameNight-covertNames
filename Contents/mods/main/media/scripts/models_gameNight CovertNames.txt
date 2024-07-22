@@ -1,0 +1,11 @@
+module Base
+{
+
+    model model_CovertNamesWords { mesh = WorldItems/gameNightMoney, texture = Item_CovertNamesWords/deckTexture, scale = 0.0004, }
+
+    model model_CovertNamesAgents { mesh = WorldItems/gameNightMoney, texture = Item_CovertNamesAgents/deckTexture, scale = 0.0004, }
+
+    model model_CovertNamesKeyCards { mesh = WorldItems/gameNightMoney, texture = Item_CovertNamesKeyCards/deckTexture, scale = 0.0004, }
+
+    model CovertNamesBox { mesh = WorldItems/cardpack, texture = Item_Boxes/CovertNamesBox_ground, scale = 0.06, }
+}

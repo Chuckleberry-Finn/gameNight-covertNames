@@ -1,0 +1,27 @@
+module Base
+{
+    item CovertNamesWords
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+    DisplayName = Covert Name Tiles, Icon = CovertNamesWords/deck, WorldStaticModel = model_CovertNamesWords, }
+
+    item CovertNamesAgents
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+    DisplayName = Agent Tiles, Icon = CovertNamesAgents/deck, WorldStaticModel = model_CovertNamesAgents, }
+
+    item CovertNamesKeyCards
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+    DisplayName = Key Cards, Icon = CovertNamesKeyCards/deck, WorldStaticModel = model_CovertNamesKeyCards, }
+
+
+    item CovertNames_Box
+        {
+            DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
+            DisplayName = Covert Names Box, Icon = Boxes/CovertNamesBox, WorldStaticModel = CovertNamesBox,
+        }
+
+    item CovertNames_Box_sealed
+        {
+            DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 2,
+            DisplayName = Covert Names Box (Sealed), Icon = Boxes/CovertNamesBox, WorldStaticModel = CovertNamesBox,
+        }
+}

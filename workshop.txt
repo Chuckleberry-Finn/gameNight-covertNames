@@ -1,16 +1,16 @@
 version=1
-title=Game Night: ADDON_NAME
+title=Game Night: Covert Names
 description=[h2]Add-On for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058279917]GameNight[/url].[/h2]
-description=[h3]DESCRIBE_YOUR_ADD_ON_HERE[/h3]
-description=[i]DESCRIBE_ADD_ONS_FEATURES_IN_MORE_DETAIL[/i]
+description=[h3]Two rival handlers each have a new spy, and are tasked with introducing them to their fellow agents covertly.[/h3]
+description=[i]The new spy can only use clues and covert names to discern who is friend of foe. To win, your team will need to make contact with all of your spies before the other team can. Watch out for the neutral civilians and enemies or else your turn is over; even worse if you run into the assassin – your team loses! [/i]
 description=
 description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
 description=
 description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
 description=
-description=[i][b]GAME_TITLE[/b] is a registered trademark of GAME_COMPANY. Copyright GAME_COMPANY. All rights reserved.[/i]
+description=[i][b]Codenames[/b] is a registered trademark of Czech Games Edition. Copyright Czech Games Edition. All rights reserved.[/i]
 description=
 description=
-description=[h3]Copyright 2024 AUTHOR. This item is not authorized for posting on Steam, except under the Steam account(s) named AUTHOR.[/h3]
+description=[h3]Parodied artwork, and original work, Copyright 2024 Chuckleberry Finn. This item is not authorized for posting on Steam, except under the Steam account(s) named Chuckleberry Finn.[/h3]
 tags=Build 41;Multiplayer;Pop Culture;Silly/Fun
 visibility=public

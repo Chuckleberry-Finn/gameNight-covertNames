@@ -1,0 +1,6 @@
+module Base
+{
+
+    recipe Unseal Box { CovertNames_Box_sealed, Result:CovertNames_Box, CanBeDoneFromFloor:true, OnCreate:Recipe.GameNight.Unbox, Time:50.0, }
+
+}
