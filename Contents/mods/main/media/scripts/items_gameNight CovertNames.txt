@@ -2,15 +2,15 @@ module Base
 {
     item CovertNamesWords
     { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-    DisplayName = Covert Name Tiles, Icon = CovertNamesWords/deck, WorldStaticModel = model_CovertNamesWords, }
+    DisplayName = Covert Name Tiles, Icon = CovertNamesWords/deck, WorldStaticModel = modelCovertNamesWords, }
 
     item CovertNamesAgents
     { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-    DisplayName = Agent Tiles, Icon = CovertNamesAgents/deck, WorldStaticModel = model_CovertNamesAgents, }
+    DisplayName = Agent Tiles, Icon = CovertNamesAgents/deck, WorldStaticModel = modelCovertNamesAgents, }
 
     item CovertNamesKeyCards
     { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-    DisplayName = Key Cards, Icon = CovertNamesKeyCards/deck, WorldStaticModel = model_CovertNamesKeyCards, }
+    DisplayName = Key Cards, Icon = CovertNamesKeyCards/deck, WorldStaticModel = modelCovertNamesKeyCards, }
 
 
     item CovertNames_Box
