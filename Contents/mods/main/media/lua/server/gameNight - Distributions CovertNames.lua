@@ -2,6 +2,8 @@ require "Items/SuburbsDistributions"
 
 local gameNightDistro = require "gameNight - Distributions"
 
+gameNightDistro.proceduralDistGameNight.itemsToAdd["CovertNames_Box"] = {}
+
 gameNightDistro.gameNightBoxes["CovertNames_Box"] = {
     rolls = 1,
     items = {
