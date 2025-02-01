@@ -1,0 +1,5 @@
+IGUI_EN = {
+    IGUI_CovertNamesWords = "Covert Name Tile",
+    IGUI_CovertNamesAgents = "Agent Tile",
+    IGUI_CovertNamesKeyCards = "Key Card",
+}

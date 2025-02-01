@@ -1,0 +1,8 @@
+name=Game Night - Covert Names
+id=gamenight_Covert_Names
+description=Two rival handlers each have a new spy, and are tasked with introducing them to their fellow agents covertly.
+poster=poster.png
+require=\gamenight,\ChuckleberryFinnAlertSystem,\errorMagnifier,
+author=Chuckleberry Finn
+icon=icon.png
+versionMin=42.0
