@@ -13,5 +13,5 @@ description=[i][b]Codenames[/b] is a registered trademark of Czech Games Edition
 description=
 description=
 description=[h3]Parodied artwork, and original work, Copyright 2024 Chuckleberry Finn. This item is not authorized for posting on Steam, except under the Steam account(s) named Chuckleberry Finn.[/h3]
-tags=Build 41;Multiplayer;Pop Culture;Silly/Fun
+tags=Build 41;Build 42;Multiplayer;Pop Culture;Silly/Fun
 visibility=public
