@@ -1,6 +1,6 @@
-local applyItemDetails = require "gameNight - applyItemDetails"
+local applyItemDetails = require("gameNight-applyItemDetails.lua")
 local deckActionHandler = applyItemDetails.deckActionHandler
-local gamePieceAndBoardHandler = applyItemDetails.gamePieceAndBoardHandler
+local gamePieceHandler = applyItemDetails.gamePieceHandler
 
 
 local words = {}
@@ -12,7 +12,7 @@ for i=1, 400 do
 end
 
 deckActionHandler.addDeck("CovertNamesWords", words, wordsAltNames)
-gamePieceAndBoardHandler.registerSpecial("Base.CovertNamesWords", {
+gamePieceHandler.registerSpecial("Base.CovertNamesWords", {
     actions = { examine=true },
     examineScale = 1,
     textureSize = {124,69}
@@ -27,7 +27,7 @@ for i=1, 40 do
     keyCardsAltNames[KeyCardID] = "Key Card"
 end
 deckActionHandler.addDeck("CovertNamesKeyCards", keyCards, keyCardsAltNames)
-gamePieceAndBoardHandler.registerSpecial("Base.CovertNamesKeyCards", {
+gamePieceHandler.registerSpecial("Base.CovertNamesKeyCards", {
     actions = { examine=true },
     examineScale = 1,
     textureSize = {100,100}
@@ -52,7 +52,7 @@ for _,color in pairs(colors) do
 end
 
 deckActionHandler.addDeck("CovertNamesAgents", agents, agentsAltNames)
-gamePieceAndBoardHandler.registerSpecial("Base.CovertNamesAgents", {
+gamePieceHandler.registerSpecial("Base.CovertNamesAgents", {
     actions = { examine=true },
     examineScale = 1,
     textureSize = {125,69}
